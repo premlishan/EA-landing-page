@@ -1,0 +1,6 @@
+{
+  "name": "IIC Lakshya - Enrolled Agent (EA)",
+  "description": "Premium brochure and interactive program landing page for the Enrolled Agent (EA) course at Indian Institute of Commerce Lakshya.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
