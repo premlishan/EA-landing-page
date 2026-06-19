@@ -371,8 +371,8 @@ export const HYBRID_DELIVERABLES: DeliverableItem[] = [
 
 export const OUR_EDGE: EdgeItem[] = [
   {
-    feature: "Academic Assistance",
-    lakshya: "Highly structured coordinator role, responsive academic mentor, and multi-tier expert faculty support system.",
+    feature: "3-Tier Academic System",
+    lakshya: "Highly structured co-ordinators, responsive academic mentors, and expert faculty support system.",
     competitors: "No structured support roles or dedicated point of contact."
   },
   {

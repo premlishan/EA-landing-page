@@ -320,7 +320,7 @@ export default function App() {
       setEligibilityResult("Eligible but pending. To practice legally, obtaining your IRS PTIN remains a prerequisite.");
       setIsEligibilityPositive(false);
     } else {
-      setEligibilityResult("Congratulations! You are perfectly eligible to sit for the EA exams. Start your enrollment process now with our authorized HOCK materials!");
+      setEligibilityResult("Congratulations! You are perfectly eligible to sit for the EA exams. Start your enrollment process now!");
       setIsEligibilityPositive(true);
     }
   };
@@ -523,14 +523,34 @@ export default function App() {
             </p>
 
             {/* Screenshot Features: Earning Potential & Duration Cards */}
-            <div className="grid grid-cols-2 gap-4 max-w-md pt-2">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-xl pt-2">
               <div className="bg-white border border-slate-100/90 rounded-3xl p-5 text-slate-900 shadow-xl shadow-blue-950/20 select-none">
-                <span className="block text-[10px] sm:text-xs uppercase font-extrabold tracking-widest text-[#26a19d] mb-1.5 opacity-90">STARTING SALARY</span>
-                <span className="text-xl sm:text-2xl font-black text-[#00528a] tracking-tight leading-tight block">Up to 8-10 LPA</span>
+                <span className="block text-[10px] sm:text-xs uppercase font-extrabold tracking-widest text-[#26a19d] mb-2.5 opacity-90">EARNING POTENTIAL</span>
+                <div className="space-y-2">
+                  <div className="flex items-center justify-between border-b border-slate-100 pb-1.5">
+                    <span className="text-[11px] sm:text-xs font-extrabold text-slate-500 flex items-center gap-1.5">
+                      <span>🇮🇳</span> <span>India</span>
+                    </span>
+                    <span className="text-xs sm:text-sm font-black text-[#00528a]">₹5 LPA - 20 LPA</span>
+                  </div>
+                  <div className="flex items-center justify-between border-b border-slate-100 pb-1.5">
+                    <span className="text-[11px] sm:text-xs font-extrabold text-slate-500 flex items-center gap-1.5">
+                      <span>🇦🇪</span> <span>UAE</span>
+                    </span>
+                    <span className="text-xs sm:text-sm font-black text-[#00528a]">AED 6,000 - 45,000 / mo</span>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span className="text-[11px] sm:text-xs font-extrabold text-slate-500 flex items-center gap-1.5">
+                      <span>🇺🇸</span> <span>US / Global</span>
+                    </span>
+                    <span className="text-xs sm:text-sm font-black text-[#00528a]">$1,600 - 12,000 / mo</span>
+                  </div>
+                </div>
               </div>
-              <div className="bg-white border border-slate-100/90 rounded-3xl p-5 text-slate-900 shadow-xl shadow-blue-950/20 select-none">
+              <div className="bg-white border border-slate-100/90 rounded-3xl p-5 text-slate-900 shadow-xl shadow-blue-950/20 select-none flex flex-col justify-center">
                 <span className="block text-[10px] sm:text-xs uppercase font-extrabold tracking-widest text-[#26a19d] mb-1.5 opacity-90">DURATION</span>
-                <span className="text-2xl sm:text-3xl font-black text-[#00528a] tracking-tight">3-6 Months</span>
+                <span className="text-3xl sm:text-4xl font-black text-[#00528a] tracking-tight block">6-9 Months</span>
+                <span className="text-[10px] text-slate-500 font-semibold mt-1 block">Flexible learning schedule</span>
               </div>
             </div>
 
@@ -1116,7 +1136,7 @@ export default function App() {
                     🇮🇳 India
                   </div>
                   <div className="text-2xl lg:text-3xl font-black text-[#feda2d] tracking-tight">
-                    ₹5 Lakh – ₹20 Lakh
+                    ₹5 LPA – 20 LPA
                   </div>
                   <p className="text-xs text-blue-100/85 font-medium">
                     Annual Earning Range (INR)
@@ -1129,10 +1149,10 @@ export default function App() {
                     🇦🇪 UAE
                   </div>
                   <div className="text-2xl lg:text-3xl font-black text-[#feda2d] tracking-tight">
-                    AED 100,000 – 500,000
+                    AED 6,000 – 45,000
                   </div>
                   <p className="text-xs text-blue-100/85 font-medium">
-                    Annual Earning Range (AED)
+                    Monthly Earning Range (AED)
                   </p>
                 </div>
 
@@ -1142,10 +1162,10 @@ export default function App() {
                     🇺🇸 USA / Global
                   </div>
                   <div className="text-2xl lg:text-3xl font-black text-[#feda2d] tracking-tight">
-                    $30,000 – $120,000
+                    $1,600 – $12,000
                   </div>
                   <p className="text-xs text-blue-100/85 font-medium">
-                    Annual Earning Range (USD)
+                    Monthly Earning Range (USD)
                   </p>
                 </div>
 
