@@ -512,9 +512,9 @@ export default function App() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-black font-display tracking-tight leading-tight text-white">
-              Start Your Career in <br />
+              Become an IRS certified <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#feda2d] to-yellow-300">
-                U.S. Taxation
+                Enrolled Agent
               </span>
             </h1>
 
@@ -539,12 +539,15 @@ export default function App() {
                     </span>
                     <span className="text-xs sm:text-sm font-black text-[#00528a]">AED 6,000 - 45,000 / mo</span>
                   </div>
-                  <div className="flex items-center justify-between">
+                  <div className="flex items-center justify-between pb-1.5">
                     <span className="text-[11px] sm:text-xs font-extrabold text-slate-500 flex items-center gap-1.5">
                       <span>🇺🇸</span> <span>US / Global</span>
                     </span>
                     <span className="text-xs sm:text-sm font-black text-[#00528a]">$1,600 - 12,000 / mo</span>
                   </div>
+                </div>
+                <div className="text-[9px] text-slate-400 font-semibold mt-2 text-right italic leading-none border-t border-slate-100 pt-1.5 select-none">
+                  * Based on experience & skill
                 </div>
               </div>
               <div className="bg-white border border-slate-100/90 rounded-3xl p-5 text-slate-900 shadow-xl shadow-blue-950/20 select-none flex flex-col justify-center">
@@ -1111,73 +1114,7 @@ export default function App() {
             </div>
           </div>
 
-          {/* Earning potential Highlight (Slide 5 bottom banner recreation) */}
-          <div className="mt-12 bg-gradient-to-tr from-[#00528a] to-[#26a19d] text-white border border-white/10 rounded-3xl p-6 md:p-10 shadow-lg shadow-blue-950/20 text-center relative overflow-hidden">
-            <div className="absolute top-0 right-0 transform translate-x-5 -translate-y-5 opacity-10">
-              <TrendingUp className="w-56 h-56 text-[#feda2d]" />
-            </div>
-            
-            <div className="relative z-10 max-w-5xl mx-auto space-y-8">
-              <div className="space-y-3">
-                <span className="inline-flex items-center px-4 py-1.5 rounded-full text-xs font-black uppercase tracking-widest bg-[#feda2d] text-[#00528a] shadow-sm">
-                  Earning Potential Highlight
-                </span>
-                <h3 className="text-2xl md:text-3xl font-extrabold tracking-tight text-white max-w-2xl mx-auto">
-                  Unlock high-paying career opportunities across premium global markets
-                </h3>
-              </div>
 
-              {/* 3-Column structured layout for high clarity */}
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-2">
-                
-                {/* India (INR) */}
-                <div className="bg-white/10 backdrop-blur-sm border border-white/15 rounded-2xl p-6 text-center space-y-2 hover:bg-white/15 transition-all shadow-inner">
-                  <div className="inline-flex items-center gap-1.5 bg-[#feda2d]/10 text-[#feda2d] border border-[#feda2d]/20 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
-                    🇮🇳 India
-                  </div>
-                  <div className="text-2xl lg:text-3xl font-black text-[#feda2d] tracking-tight">
-                    ₹5 LPA – 20 LPA
-                  </div>
-                  <p className="text-xs text-blue-100/85 font-medium">
-                    Annual Earning Range (INR)
-                  </p>
-                </div>
-
-                {/* UAE (AED) */}
-                <div className="bg-white/10 backdrop-blur-sm border border-white/15 rounded-2xl p-6 text-center space-y-2 hover:bg-white/15 transition-all shadow-inner">
-                  <div className="inline-flex items-center gap-1.5 bg-[#feda2d]/10 text-[#feda2d] border border-[#feda2d]/20 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
-                    🇦🇪 UAE
-                  </div>
-                  <div className="text-2xl lg:text-3xl font-black text-[#feda2d] tracking-tight">
-                    AED 6,000 – 45,000
-                  </div>
-                  <p className="text-xs text-blue-100/85 font-medium">
-                    Monthly Earning Range (AED)
-                  </p>
-                </div>
-
-                {/* USA & Global (USD) */}
-                <div className="bg-white/10 backdrop-blur-sm border border-white/15 rounded-2xl p-6 text-center space-y-2 hover:bg-white/15 transition-all shadow-inner">
-                  <div className="inline-flex items-center gap-1.5 bg-[#feda2d]/10 text-[#feda2d] border border-[#feda2d]/20 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
-                    🇺🇸 USA / Global
-                  </div>
-                  <div className="text-2xl lg:text-3xl font-black text-[#feda2d] tracking-tight">
-                    $1,600 – $12,000
-                  </div>
-                  <p className="text-xs text-blue-100/85 font-medium">
-                    Monthly Earning Range (USD)
-                  </p>
-                </div>
-
-              </div>
-
-              <div className="pt-2 flex flex-wrap justify-center gap-4 text-[10px] md:text-[11px] font-extrabold tracking-widest uppercase text-blue-200">
-                <span className="bg-white/10 px-3 py-1.5 rounded-md border border-white/10">✦ ACCA/CMA integrations</span>
-                <span className="bg-white/10 px-3 py-1.5 rounded-md border border-white/10">✦ Big 4 Partnerships</span>
-                <span className="bg-white/10 px-3 py-1.5 rounded-md border border-white/10">✦ Flexible IRS Testing</span>
-              </div>
-            </div>
-          </div>
 
 
 
